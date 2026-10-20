@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MaCalculatrice" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/bouton_operateur</item>
+        <item name="colorPrimaryDark">@color/bouton_operateur</item>
+        <item name="colorAccent">@color/bouton_egal</item>
+        <item name="android:windowBackground">@color/fond</item>
+    </style>
+
+    <!-- Style commun a tous les boutons -->
+    <style name="BoutonCalc" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/texte_sombre</item>
+        <item name="android:backgroundTint">@color/bouton_chiffre</item>
+    </style>
+
+    <style name="BoutonOperateur" parent="BoutonCalc">
+        <item name="android:textColor">@color/blanc</item>
+        <item name="android:backgroundTint">@color/bouton_operateur</item>
+    </style>
+
+    <style name="BoutonEffacer" parent="BoutonCalc">
+        <item name="android:textColor">@color/blanc</item>
+        <item name="android:backgroundTint">@color/bouton_effacer</item>
+    </style>
+
+    <style name="BoutonEgal" parent="BoutonCalc">
+        <item name="android:textColor">@color/blanc</item>
+        <item name="android:backgroundTint">@color/bouton_egal</item>
+    </style>
+
+    <style name="BoutonAutre" parent="BoutonCalc">
+        <item name="android:backgroundTint">@color/bouton_autre</item>
+    </style>
+</resources>

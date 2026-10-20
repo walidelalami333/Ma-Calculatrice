@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fond">#FFFFFF</color>
+    <color name="texte_sombre">#212121</color>
+    <color name="texte_gris">#757575</color>
+    <color name="blanc">#FFFFFF</color>
+    <color name="bouton_chiffre">#ECEFF1</color>
+    <color name="bouton_operateur">#FB8C00</color>
+    <color name="bouton_effacer">#E53935</color>
+    <color name="bouton_egal">#43A047</color>
+    <color name="bouton_autre">#B0BEC5</color>
+</resources>

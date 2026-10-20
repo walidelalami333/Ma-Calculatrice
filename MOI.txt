@@ -1,0 +1,11 @@
+MA CALCULATRICE - TP1 Developpement Android
+
+1) Decompressez le ZIP.
+2) Android Studio > File > Open > choisissez le dossier "Calculatrice".
+3) Attendez la fin de "Gradle Sync" (internet necessaire la 1ere fois).
+4) Si Android Studio propose "Update AGP / Gradle" : cliquez sur "Remind me later" (pas obligatoire).
+5) Lancez avec le bouton vert Run sur un emulateur ou un telephone.
+
+Fichiers a regarder :
+- app/src/main/res/layout/activity_main.xml  (l'interface)
+- app/src/main/java/ma/ensaf/ma_calculatrice/MainActivity.java  (la logique, commentee)
